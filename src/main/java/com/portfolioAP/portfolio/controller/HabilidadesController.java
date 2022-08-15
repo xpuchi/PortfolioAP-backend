@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping ("/habilidades")
-@CrossOrigin(origins = "https://portfolio-ap-5058f.web.app")
+@CrossOrigin(origins = "https://portfolio-ap-5058f.web.app:4200")
 public class HabilidadesController {
     
       private final HabilidadesService habilidadesService;
